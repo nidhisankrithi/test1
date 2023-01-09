@@ -5,6 +5,7 @@ public class Main_Method {
 		// TODO Auto-generated method stub
 		largest_and_smallest obj=new largest_and_smallest();
 		obj.largestand_smallest();
+		obj.even_or_odd();
 
 	}
 

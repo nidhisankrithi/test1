@@ -8,7 +8,7 @@ Scanner sc=new Scanner(System.in);
 System.out.println("Enter the number of elements in an array");
  n=sc.nextInt();
  int a[]=new int[n];
- System.out.println("Enter the number of elements in an array");
+ System.out.println("Enter elements in an array");
  for(int i=0;i<n;i++)
  {
 	 a[i]=sc.nextInt();
@@ -47,4 +47,21 @@ System.out.println("Enter the number of elements in an array");
  }
  System.out.println("Max value in an array is:" +min);
 	}
+
+//Even or odd
+public void even_or_odd()
+{
+	
+System.out.println("Enter aqny number");
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+if(n%0==2)
+{
+	System.out.println("Number is even");
+}
+else
+{
+	System.out.println("Number is odd");
+}
+}
 }
