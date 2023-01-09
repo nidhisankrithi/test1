@@ -57,7 +57,7 @@ Scanner sc=new Scanner(System.in);
 int n=sc.nextInt();
 if(n%0==2)
 {
-	System.out.println("Number is even");
+	System.out.println("Number is Even");
 }
 else
 {
